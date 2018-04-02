@@ -1,0 +1,17 @@
+/* Features Grid ---------======>>> */
+.features-grid {
+	display: grid;
+	grid-template-rows: repeat(3, minmax(20px, auto));
+	grid-template-columns: repeat(4, minmax(1fr, auto));
+	grid-template-areas: 
+	"features-title features-title features-title features-title"
+	"features-image features-image . ."
+	"features-image features-image . .";
+}
+
+.features-title {
+	grid-area: features-title;
+}
+.features-image {
+	grid-area: features-image;
+}

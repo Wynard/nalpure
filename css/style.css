@@ -31,12 +31,32 @@
     margin: 0 auto;
 }
 .w33 {
-    width: 33.33333333333333%
+    width: 33.33333333333333%;
+    margin: 0 auto;
+}
+
+.max-w25 {
+    max-width: 25%;
+    margin: 0 auto;
+}
+.max-w100 {
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.max-w50 {
+    max-width: 50%;
+    margin: 0 auto;
+}
+.max-w33 {
+    max-width: 33.33333333333333%;
+    margin: 0 auto;
 }
 .w25 {
     width: 25%;
     margin: 0 auto;
 }
+
 .dry-bck {
     background-color: #FFA41F;
 }
@@ -194,4 +214,46 @@ header {
 }
 
 
-/* Intro section ---------======>>> */
+/* Features ---------======>>> */
+.features {
+    padding: 80px 0;
+}
+.features .features-grid .features-title {
+    vertical-align: center;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+.features .features-grid .features-title h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: capitalize;
+    line-height: normal;
+}
+.features .features-grid .features-title p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    color: #7A7A7A;
+}
+.features .features-grid .features-image img {
+    max-width: 442px;
+    max-height: 332px;
+    padding: 15px;
+    border: 1px solid #D7D7D7;
+}
+.features .features-grid .features-card:nth-child(odd){
+    margin-left: 30px;
+}
+.features .features-grid .features-card a {
+    display: block;
+    margin: 20px 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.features .features-grid .features-card p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    color: #7A7A7A;
+}
