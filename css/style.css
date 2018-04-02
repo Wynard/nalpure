@@ -64,6 +64,9 @@
 /* Header ---------======>>> */
 /* Header-top-bar ---------======>>> */
 
+header {
+    padding-bottom: 50px;
+}
 .nal-top-bar {
     padding: 18px;
     color: #fff;
@@ -75,6 +78,7 @@
 }
 .nal-top-bar a{
     color: #fff;
+    font-weight: normal;
 }
 .nal-top-bar ul {
     list-style: none;
@@ -84,7 +88,7 @@
     margin-right: 15px;
 }
 .nal-top-bar ul li:last-of-type {
-
+    margin-right: 0;
 }
 /* Header-top-bar ---------======>>> */
 .nal-big-title .tel-number,
@@ -108,15 +112,17 @@
     color: #7A7A7A;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 26px;
+    font-weight: normal;
 }
 
-/* Header-top-bar ---------======>>> */
+/* NavBar ---------======>>> */
 .main-navbar {
     font-family: Verdana, Geneva, sans-serif;
     text-transform: uppercase;
     font-size: 14px;
     text-align: center;
     color: #7A7A7A;
+    font-weight: normal;
 
     border-bottom: 1px solid rgba(0,0,0,.1);
     border-top: 1px solid rgba(0,0,0,.1);
@@ -127,55 +133,65 @@
 }
 .main-navbar ul li {
     display: inline-block;
-    margin-right: 30px;
-    padding: 20px 0;
+    margin: 0 30px 0 0;
 }
 .main-navbar ul li:last-of-type {
     margin-right: 0;
 }
 .main-navbar ul li a {
+    display: block;
+    padding: 20px 0;
     color: #7A7A7A;
     font-size: 14px;
-    padding: 20px 0 20px 15px;
 }
 .main-navbar .current-page {
     color: #FFA41F;
 }
 
 
-/* Description ---------======>>> */
-.nl-description {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
-    text-align: center;
+/* Intro section ---------======>>> */
+.nl-intro {
     background-color: #000;
 }
-.nl-description .nl-intro {
+.intro-card-position {
     padding: 180px 0;
+}
+.nl-intro-card {
     margin: 0 auto;
-    width: 70%;
-}
-.nl-description .nl-intro article {
-    background-color: rgba(255,255,255,.7);
+    max-width: 60%;
     padding: 5%;
-
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    background: rgba(255,255,255,.7);
 }
-.nl-intro article h1 {
-    margin: 0 0 30px 0;
-    text-transform: capitalize;
+.nl-intro .nl-intro-card h3 {
+    margin-bottom: 30px;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 3rem;
-    line-height: normal;
+    text-transform: capitalize;
+    font-size: 2.6rem;
     font-weight: normal;
-    color: #000;
 }
-.nl-intro article p {
-    margin: 5px 0;
+.nl-intro .nl-intro-card p {
+    font-size: 14px;
     line-height: 2;
-    font-size: 16px;
+    font-weight: lighter;
+}
+.nl-intro .nl-intro-card .intro-button {
+    margin-top: 30px;
+}
+.nl-intro .nl-intro-card .intro-button a {
+    padding: 8px 18px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #FFA41F;
+    transition: all .3s ease-in-out;
+}
+.nl-intro .nl-intro-card .intro-button a:hover {
+    border: 1px solid #000;
+    background:transparent;
 }
 
- .nl-intro .intro-button {
-    margin-top: 30px;
-    padding: 10px;
-}
+
+/* Intro section ---------======>>> */
