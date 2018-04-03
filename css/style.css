@@ -243,7 +243,7 @@ header {
     border: 1px solid #D7D7D7;
 }
 .features .features-grid .features-card:nth-child(odd){
-    margin-left: 30px;
+    margin-left: 50px;
 }
 .features .features-grid .features-card a {
     display: block;
@@ -254,6 +254,109 @@ header {
 }
 .features .features-grid .features-card p {
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: #7A7A7A;
+    margin-right: 12px;
+    line-height: 25px;
+}
+
+/* About ---------======>>> */
+.about {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+.about .about-title {
+    margin: 0 auto 80px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+.about .about-title h3 {
+    text-transform: capitalize;
+}
+.about .about-title p {
+    font-size: 14px;
+    color: #7A7A7A;
+}
+.about .about-card:nth-child(1),
+.about .about-card:nth-child(2),
+.about .about-card:nth-child(3) {
+    margin-bottom: 50px;
+}
+.about .about-card {
+    margin-left: 30px;
+}
+.about .about-card a i {
+    margin-bottom: 30px;
+    font-size: 42px;
+    color: #7A7A7A;
+
+
+    transition: all .3s ease-in-out;
+}
+.about .about-card h6 {
+    margin-bottom: 20px;
+}
+.about .about-card h6 a {
+    color: #7A7A7A;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+
+
+    transition: all .3s ease-in-out;
+}
+.about .about-card p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.about .about-card a {
+    color: #7A7A7A;
+
+    transition: all .3s ease-in-out;
+}
+.about .about-card:hover a i,
+.about .about-card:hover h6 a,
+.about .about-card:hover a {
+    color: #FFA41F;
+}
+.about .about-button {
+    margin-top: 80px;
+}
+.about .about-button a {
+    font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;
+    padding: 8px 18px 10px;
+    color: #fff;
+    border: 1px solid #FFA41F;
+
+    transition: all .3s ease-in-out;
+}
+.about .about-button a:hover {
+    color: #7A7A7A;
+    border-color: #000;
+    background: transparent;
+}
+
+/* Album ---------======>>> */
+.album {
+
+}
+.album .album-title {
+
+}
+.album .album-title h6 {
+
+}
+.album .album-title p {
+
+}
+.album .album-image {
+    background-image: url(../images/features-image.png);
+    width: 442px;
+    height: 332px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }

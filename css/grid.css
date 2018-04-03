@@ -15,3 +15,34 @@
 .features-image {
 	grid-area: features-image;
 }
+
+
+.about-grid {
+	display: grid;
+	grid-template-rows: repeat(4, minmax(20px, auto));
+	grid-template-columns: repeat(3, minmax(20px, auto));
+	grid-template-areas:
+	"about-title about-title about-title"
+	". . . "
+	". . . "
+	". about-button .";
+}
+.about-title {
+	grid-area: about-title;
+}
+.about-button {
+	grid-area: about-button;
+}
+
+.album {
+	display: grid;
+	grid-template-rows: repeat(3, minmax(20px, 1fr));
+	grid-template-columns: repeat(3, minmax(20px, 1fr));
+	grid-template-areas:
+	"album-title album-title album-title"
+	". . ."
+	". . .";
+}
+.album-title {
+	grid-area: album-title;
+}
