@@ -341,22 +341,45 @@ header {
 
 /* Album ---------======>>> */
 .album {
-
+    margin: 0 auto;
+    padding: 80px 0;
+    box-sizing: border-box;
 }
 .album .album-title {
+    text-align: center;
+    margin-bottom: 80px;
 
 }
 .album .album-title h6 {
-
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: #121212;
 }
 .album .album-title p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #7A7A7A;
 
 }
-.album .album-image {
-    background-image: url(../images/features-image.png);
-    width: 442px;
-    height: 332px;
+.album .album-image img {
+    box-sizing: border-box;
+    width: 306px;
+    height: 230px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.album .album-image:nth-child(2),
+.album .album-image:nth-child(3),
+.album .album-image:nth-child(4) {
+    margin-bottom: 30px;
+}
+
+.album .album-image:nth-child(3),
+.album .album-image:nth-child(4),
+.album .album-image:nth-child(6),
+.album .album-image:nth-child(7) {
+    margin-left: 30px;
 }

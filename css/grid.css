@@ -36,12 +36,10 @@
 
 .album {
 	display: grid;
-	grid-template-rows: repeat(3, minmax(20px, 1fr));
-	grid-template-columns: repeat(3, minmax(20px, 1fr));
+	grid-template-rows: repeat(3, minmax(20px, auto));
+	grid-template-columns: repeat(3, minmax(20px, auto));
 	grid-template-areas:
-	"album-title album-title album-title"
-	". . ."
-	". . .";
+	"album-title album-title album-title";
 }
 .album-title {
 	grid-area: album-title;
