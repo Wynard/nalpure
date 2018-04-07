@@ -383,3 +383,62 @@ header {
 .album .album-image:nth-child(7) {
     margin-left: 30px;
 }
+
+
+/* Testimonials ---------======>>> */
+.testimonials {
+    padding: 80px 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+.testimonials .testimonials-title {
+    margin-bottom: 80px;
+}
+.testimonials .testimonials-title h6 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.testimonials .testimonials-title p {
+    color: #7A7A7A;
+}
+.testimonials .testimonials-text {
+    max-width: 80%;
+    padding: 20px;
+    margin: 0 auto 30px;
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 2rem;
+    color: #7A7A7A;
+    background-color: #FFFFFF;
+}
+.testimonials .testimonials-image {
+    margin-bottom: 80px;
+}
+.testimonials .testimonials-image img {
+    max-width: 60px;
+    max-height: 60px;
+    margin-bottom: 15px;
+}
+.testimonials .testimonials-image h6 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.testimonials .testimonials-image em {
+    font-size: .7rem;
+    color: #7A7A7A;
+}
+.testimonials .testimonials-button a {
+    padding: 8px 18px 10px;
+    text-transform: uppercase;
+    color: #f1f1f1;
+    background-color: #FFA41F;
+    border-color: #FFA41F;
+}
