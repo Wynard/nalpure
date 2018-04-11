@@ -1,50 +1,29 @@
-/* Features Grid ---------======>>> */
-.features-grid {
+body {
 	display: grid;
-	grid-template-rows: repeat(3, minmax(20px, auto));
-	grid-template-columns: repeat(4, minmax(1fr, auto));
-	grid-template-areas: 
-	"features-title features-title features-title features-title"
-	"features-image features-image . ."
-	"features-image features-image . .";
+	grid-template-columns: 1fr 978px 1fr;
 }
-
-.features-title {
-	grid-area: features-title;
-}
-.features-image {
-	grid-area: features-image;
-}
-
-
-.about-grid {
+.very-top-bar {
 	display: grid;
-	grid-template-rows: repeat(4, minmax(20px, auto));
-	grid-template-columns: repeat(3, minmax(20px, auto));
-	grid-template-areas:
-	"about-title about-title about-title"
-	". . . "
-	". . . "
-	". about-button .";
+	grid-column: 1 / -1;
+	grid-template-columns: 1fr auto 1fr;
 }
-.about-title {
-	grid-area: about-title;
-}
-.about-button {
-	grid-area: about-button;
-}
-
-.album {
+.vtb-items {
 	display: grid;
-	grid-template-rows: repeat(3, minmax(20px, auto));
-	grid-template-columns: repeat(3, minmax(20px, auto));
-	grid-template-areas:
-	"album-title album-title album-title";
+	grid-template-columns: repeat(5, auto);
+	grid-column: 2 / -2;
 }
-.album-title {
-	grid-area: album-title;
-}
-.testimonials-grid {
+header {
+	grid-column: 2 / -2;
+	grid-template-columns: 1fr 8fr 1fr;
 	display: grid;
-	grid-template-rows: repeat(4, minmax(20px, auto));
+}
+.main-title {
+	grid-column: 1 / -1;
+	display: grid;
+	grid-template-columns: 3fr 8fr 2fr;
+}
+.header-navbar {
+	grid-column: 2 / -2;
+	display: grid;
+	grid-template-columns: repeat(7, auto);
 }
