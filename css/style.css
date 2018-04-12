@@ -277,3 +277,58 @@ h6 {
 .album .album-image:nth-of-type(3n+3) img {
     padding: 15px 0 15px 15px;
 }
+/*  Testimonials ---------======>>> */
+.testimonials {
+    padding: 80px 0;
+    text-align: center;
+}
+.testimonials> h3 {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+.testimonials > p {
+    margin-bottom: 80px;
+    font-size: 14px;
+    text-align: center;
+    color: #7A7A7A;
+}
+.testimonials span {
+    max-width: 80%;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #7A7A7A;
+}
+.testimonials .testimonials-image {
+    margin-bottom: 80px;
+}
+.testimonials .testimonials-image img {
+    margin-bottom: 15px;
+}
+.testimonials .testimonials-image h6 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1;
+}
+.testimonials .testimonials-image em {
+    font-size: 12px;
+    line-height: 1;
+    color: #7A7A7A
+}
+.testimonials .testimonials-button a {
+    padding: 8px 18px 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-color: #FFA41F;
+    transition: all .3s ease-in-out;
+}
+.testimonials .testimonials-button a:hover {
+    background: transparent;
+    color: #7A7A7A;
+    border-color: #7A7A7A;
+}

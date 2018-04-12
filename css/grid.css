@@ -73,3 +73,8 @@ p {
 p {
 	grid-column: 1 / -1;
 }
+/*  Testimonials ---------======>>> */
+.testimonials {
+	grid-column: 2 / -2;
+	display: grid;
+}
