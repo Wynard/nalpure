@@ -50,6 +50,9 @@ h6 {
 }
 
 /*  Main title ---------======>>> */
+header {
+    padding-bottom: 50px;
+}
 .main-title {
     padding: 50px 0;
     color: #7A7A7A;
@@ -106,10 +109,13 @@ h6 {
 .header-navbar .current-page {
     color: #FFA41F;
 }
+.header-navbar {
+
+}
 .header-navbar a {
+    padding: 20px 15px;
     text-align: center;
     color: #7A7A7A;
-    padding: 20px 0;
     font-family: Verdana, Geneva, sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -267,6 +273,10 @@ h6 {
     font-size: 14px;
     text-align: center;
     color: #7A7A7A;
+}
+.ablum .album-image {
+    max-width: 300px;
+    max-height: 220px;
 }
 .album .album-image:nth-of-type(3n+1) img {
     padding: 15px 15px 15px 0;
