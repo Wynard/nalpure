@@ -251,3 +251,29 @@ h6 {
     color: #7A7A7A;
     border-color: #7A7A7A;
 }
+/*  Album ---------======>>> */
+.album {
+    padding: 80px 0;
+    text-align: center;
+}
+.album > h3 {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+.album > p {
+    margin-bottom: 80px;
+    font-size: 14px;
+    text-align: center;
+    color: #7A7A7A;
+}
+.album .album-image:nth-of-type(3n+1) img {
+    padding: 15px 15px 15px 0;
+}
+.album .album-image:nth-of-type(3n+2) img {
+    padding: 15px 15px 15px 15px;
+}
+.album .album-image:nth-of-type(3n+3) img {
+    padding: 15px 0 15px 15px;
+}
