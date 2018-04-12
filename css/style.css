@@ -1,15 +1,20 @@
+html {
+    overflow-y: scroll;
+}
 * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        box-sizing: border-box;
-        font-family: Verdana, Geneva, sans-serif;
-        font-size: 14px;
-        line-height: 1.6em;
-        vertical-align: baseline;
-        background: transparent;
-    }
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    vertical-align: baseline;
+    background: transparent;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
 
 h1,
 h2,
@@ -274,9 +279,9 @@ header {
     text-align: center;
     color: #7A7A7A;
 }
-.ablum .album-image {
-    max-width: 300px;
-    max-height: 220px;
+.ablum .album-image img {
+    height: auto;
+    width: auto;
 }
 .album .album-image:nth-of-type(3n+1) img {
     padding: 15px 15px 15px 0;
@@ -285,14 +290,14 @@ header {
     padding: 15px 15px 15px 15px;
 }
 .album .album-image:nth-of-type(3n+3) img {
-    padding: 15px 0 15px 15px;
+    padding: 15px 0px 15px 15px;
 }
 /*  Testimonials ---------======>>> */
 .testimonials {
     padding: 80px 0;
     text-align: center;
 }
-.testimonials> h3 {
+.testimonials > h3 {
     font-size: 20px;
     font-weight: normal;
     text-transform: capitalize;
@@ -341,4 +346,87 @@ header {
     background: transparent;
     color: #7A7A7A;
     border-color: #7A7A7A;
+}
+/*  Latestposts ---------======>>> */
+.latestposts {
+    padding: 80px 0;
+    text-align: left;
+}
+.latestposts .latestposts-card:nth-of-type(2n+2) {
+    margin-left: 30px
+}
+.latestposts .latestposts-card .card-text {
+    padding: 30px;
+}
+.latestposts .latestposts-card .card-text > h3 {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.latestposts .latestposts-card .card-text > p {
+    margin: 14px 0;
+    font-size: 14px;
+    color: #7A7A7A;
+}
+.latestposts .latestposts-card .card-text a:nth-of-type(3n+1)::after {
+    margin: 0 5px;
+    content: "|";
+    color: #7A7A7A;
+}
+.latestposts .latestposts-card .card-text a:nth-of-type(3n+1),
+.latestposts .latestposts-card .card-text a:nth-of-type(3n+2) {
+    font-size: 12px;
+    text-transform: capitalize;
+    text-align: left;
+}
+.latestposts .latestposts-card .card-text a:nth-of-type(3n+1) i,
+.latestposts .latestposts-card .card-text a:nth-of-type(3n+2) i{
+    color: #7A7A7A;
+}
+.latestposts .latestposts-card .card-text a:nth-of-type(3n+3) {
+    text-transform: capitalize;
+    text-align: right;
+}
+.latestposts .latestposts-button {
+    margin-top: 80px;
+    text-align: center;
+}
+.latestposts .latestposts-button a {
+    padding: 8px 18px 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-color: #FFA41F;
+    transition: all .3s ease-in-out;
+}
+.latestposts .latestposts-button a:hover {
+    background: transparent;
+    color: #7A7A7A;
+    border-color: #7A7A7A;
+}
+/*  Ribbon ---------======>>> */
+.ribbon h6 {
+    padding: 50px 0;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+    color: #FFFFFF;
+}
+.ribbon .ribbon-button {
+    padding: 50px 0;
+    text-align: right;
+}
+.ribbon .ribbon-button a {
+    padding: 8px 18px 10px;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-color: #000000;
+    transition: all .3s ease-in-out;
+}
+.ribbon .ribbon-button a:hover {
+    background: transparent;
+    border-color: #FFFFFF;
 }

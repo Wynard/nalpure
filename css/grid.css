@@ -1,6 +1,6 @@
 body {
 	display: grid;
-	grid-template-columns: 1fr 978px 1fr;
+	grid-template-columns: minmax(0px, 1fr) minmax(320px, 978px) minmax(0px, 1fr);
 }
 .very-top-bar {
 	display: grid;
@@ -20,7 +20,7 @@ header {
 .main-title {
 	grid-column: 1 / -1;
 	display: grid;
-	grid-template-columns: 3fr 8fr 2fr;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 .header-navbar {
 	grid-column: 2 / -2;
@@ -83,4 +83,28 @@ header {
 	grid-column: 2 / -2;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+}
+
+.latestposts .latestposts-card .card-text {
+	display: grid;
+	grid-template-columns: auto 1fr 1fr;
+}
+.latestposts .latestposts-card .card-text > h3,
+.latestposts .latestposts-card .card-text > p {
+	grid-column: 1 / -1;
+}
+.latestposts .latestposts-button {
+	grid-column: 1 / -1;
+}
+/*  Latestposts ---------======>>> */
+.ribbon {
+	grid-column: 1 / -1;
+	display: grid;
+	grid-template-columns: 1fr  auto minmax(160px, 489px) 1fr
+}
+.ribbon h6 {
+	grid-column: 2 / 3;
+}
+.ribbon a {
+	grid-column: -2 / -3;
 }
