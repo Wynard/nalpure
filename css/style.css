@@ -430,3 +430,47 @@ header {
     background: transparent;
     border-color: #FFFFFF;
 }
+/*  Footer ---------======>>> */
+footer {
+    padding: 80px 0;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+.footer-content h6 {
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.footer-content p {
+    font-size: 14px;
+}
+.footer-content a {
+    display: block;
+}
+/*  Footer ---------======>>> */
+/*  COLUMN 1 ---------======>>> */
+.column-1 p i {
+    width: 30px;
+}
+
+
+/*  Footer ---------======>>> */
+/*  COLUMN 2 ---------======>>> */
+.column-2 {
+
+}
+
+
+/*  Footer ---------======>>> */
+/*  COLUMN 3 ---------======>>> */
+.column-3 {
+
+}
+
+
+
+/*  Footer ---------======>>> */
+/*  COLUMN 4 ---------======>>> */
+.column-4 {
+
+}
