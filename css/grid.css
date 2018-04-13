@@ -100,7 +100,7 @@ header {
 .ribbon {
 	grid-column: 1 / -1;
 	display: grid;
-	grid-template-columns: 1fr  auto minmax(160px, 489px) 1fr
+	grid-template-columns: 1fr  auto minmax(160px, 489px) 1fr;
 }
 .ribbon h6 {
 	grid-column: 2 / 3;
@@ -110,16 +110,30 @@ header {
 }
 /*  Footer ---------======>>> */
 footer {
+	/* make sure that footer tag fits on the center column within the main grid of the page */
 	grid-column: 1 / -1;
+	/* create a 3 columns layout, considering the middle one the main column for the content */
 	display: grid;
-	grid-template-columns: 100px 978px 100px;
+	grid-template-columns: 1fr 4fr 1fr;
 }
 .footer-content {
-	grid-column: 2 / -2;
+	/* make sure that this one fits on the center column of the footer-grid */
+	grid-column-start: 2;
+	grid-column-end: 3;
+	/* create a 4 columns grid here */
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat( 4, 1fr );
+	grid-template-areas: "footer-column-1 footer-column-2 footer-column-3 footer-column-4" ;
 }
-.footer-content .social-links {
-	display: grid;
-	grid-template-columns: repeat(4, auto);
+.footer-content .column-1 {
+	grid-area: footer-column-1;
+}
+.footer-content .column-2 {
+	grid-area: footer-column-2;
+}
+.footer-content .column-3 {
+	grid-area: footer-column-3;
+}
+.footer-content .column-4 {
+	grid-area: footer-column-4;
 }
