@@ -433,8 +433,10 @@ header {
 /*  Footer ---------======>>> */
 footer {
     padding: 80px 0;
-    background-color: #121212;
     color: #FFFFFF;
+}
+.footer-content {
+    background-color: red;
 }
 .footer-content h6 {
     margin-bottom: 50px;
@@ -445,7 +447,6 @@ footer {
     font-size: 14px;
 }
 .footer-content a {
-    display: block;
 }
 /*  Footer ---------======>>> */
 /*  COLUMN 1 ---------======>>> */

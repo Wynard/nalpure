@@ -110,16 +110,14 @@ header {
 }
 /*  Footer ---------======>>> */
 footer {
+	background-color: #121212;
 	grid-column: 1 / -1;
 	display: grid;
-	grid-template-columns: 100px 978px 100px;
+	grid-template-columns: 1fr 978px 1fr;
 }
-.footer-content {
+.content {
+	background-color: red;
 	grid-column: 2 / -2;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-}
-.footer-content .social-links {
-	display: grid;
-	grid-template-columns: repeat(4, auto);
 }
