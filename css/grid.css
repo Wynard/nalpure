@@ -110,12 +110,17 @@ header {
 }
 /*  Footer ---------======>>> */
 footer {
+	/* make sure that footer tag fits on the center column within the main grid of the page */
 	grid-column: 1 / -1;
+	/* create a 3 columns layout, considering the middle one the main column for the content */
 	display: grid;
 	grid-template-columns: 1fr 5fr 1fr;
 }
 .footer-content {
-	grid-column: 2 / -2;
+	/* make sure that this one fits on the center column of the footer-grid */
+	grid-column-start: 2;
+	grid-column-end: 3;
+	/* create a 4 columns grid here */
 	display: grid;
 	grid-template-columns: repeat( 4, 1fr );
 }
