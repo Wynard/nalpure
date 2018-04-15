@@ -433,10 +433,8 @@ header {
 /*  Footer ---------======>>> */
 footer {
     padding: 80px 0;
+    background-color: #121212;
     color: #FFFFFF;
-}
-.footer-content {
-    background-color: red;
 }
 .footer-content h6 {
     margin-bottom: 50px;
@@ -447,13 +445,34 @@ footer {
     font-size: 14px;
 }
 .footer-content a {
+    display: block;
 }
 /*  Footer ---------======>>> */
 /*  COLUMN 1 ---------======>>> */
+.column-1 p {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+    border-color: rgba(0,0,0,.1);
+}
 .column-1 p i {
+    font-size: 16px;
     width: 30px;
 }
+.column-1 .social-links a {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    color: #474747;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.column-1 .social-links a:hover .facbook {
+    background-color: #3B5998; 
 
+}
 
 /*  Footer ---------======>>> */
 /*  COLUMN 2 ---------======>>> */

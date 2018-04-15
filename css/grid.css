@@ -100,7 +100,7 @@ header {
 .ribbon {
 	grid-column: 1 / -1;
 	display: grid;
-	grid-template-columns: 1fr  auto minmax(160px, 489px) 1fr
+	grid-template-columns: 1fr  auto minmax(160px, 489px) 1fr;
 }
 .ribbon h6 {
 	grid-column: 2 / 3;
@@ -110,14 +110,16 @@ header {
 }
 /*  Footer ---------======>>> */
 footer {
-	background-color: #121212;
 	grid-column: 1 / -1;
 	display: grid;
-	grid-template-columns: 1fr 978px 1fr;
+	grid-template-columns: 1fr 5fr 1fr;
 }
-.content {
-	background-color: red;
+.footer-content {
 	grid-column: 2 / -2;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat( 4, 1fr );
+}
+.social-links{
+	display: grid;
+	grid-template-columns: repeat(4, auto);
 }
